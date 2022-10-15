@@ -85,3 +85,21 @@ Now you are all set to use JsonPowerDB.
 ![PUT](/Images/put2.png)
 ![PUT](/Images/put4.png)
 
+## Retrieve Single Record
+- Some important points to keep in mind
+	- Http Method : POST
+	- Base URL : http://api.login2explore.com:5577
+	- End-point URL : /api/irl 
+- Syntax
+	```
+	{
+		"token": <"connection-token">,
+		"cmd": "GET",
+		"dbName": <"database-name">,
+		"rel": <"relation-name">,
+		"jsonStr": {
+			<"ColumnName":"JsonValue">
+    	}
+	}
+	```
+- ![GET](/Images/get1.png)
