@@ -19,5 +19,50 @@ After which you'll see a dashboard like this
 ![Dashboard](/Images/dashboard.png)
 
 Click on the Tools tab
+
 Under Token tab you'll find Generate Connection Token button. So, simply click on it.
+
 Now you are all set to use JsonPowerDB.
+
+## Some Features of JsonPowerDB
+- Serverless Support - fast development - cuts time to market
+- Schema free - easy to maintain
+- Multi-Mode database - one solution to variety of data
+- Build around worlds fastest* indexing engine PowerIndex
+- Nimble, Simple to use, In Memory, Real-Time
+-  Webservices API - low development cost
+- A single instance - Million Indexes
+- Inbuilt support to Querying Multiple Databases
+- Server Side Native NoSQL - best performance
+- Multiple security layers
+
+## Why Prefer JsonPowerDB ?
+- Minimum Development Cost
+- Minimum Time to Market
+- Minimize the complexity of interoperability of different applications
+- Maximum data processing performance
+- Technology Futuristic
+	- Fills gap from database to big-data
+	- Pluggable with new algorithms
+	- Pluggable and user defined API
+- Minimize Total Cost of Ownership
+
+## Basic commands
+## Insert Single Record
+
+- Syntax
+	```
+	{
+		"token": <"connection-token">,
+		"cmd": "PUT",
+		<<"dbName": <"database-name">,>>
+		<<"rel": <"relation-name">,>>
+		<<"colsAutoIndex": <boolean-value>,>>
+		<<"templateStr": <jsonTemplateStr>,>>
+		"jsonStr": <jsonDataStr>
+	}
+  - Some important points to keep in mind
+	- Http Method : POST
+	- Base URL : http://api.login2explore.com:5577
+	- End-point URL : /api/iml 
+
