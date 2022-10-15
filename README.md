@@ -48,7 +48,7 @@ Now you are all set to use JsonPowerDB.
 - Minimize Total Cost of Ownership
 
 ## Basic commands
-## Insert Single Record
+## 1) Insert Single Record
 
 - Syntax
 	```
@@ -85,7 +85,7 @@ Now you are all set to use JsonPowerDB.
 ![PUT](/Images/put2.png)
 ![PUT](/Images/put4.png)
 
-## Retrieve Single Record
+## 2) Retrieve Single Record
 - Some important points to keep in mind
 	- Http Method : POST
 	- Base URL : http://api.login2explore.com:5577
@@ -105,19 +105,12 @@ Now you are all set to use JsonPowerDB.
 - ![GET](/Images/get1.png)
 
 
-## Update Multiple Record
+## 3) Update Multiple Record
 - Some important points to keep in mind
 	- Http Method : POST
 	- Base URL : http://api.login2explore.com:5577
 	- End-point URL : /api/iml 
-- Syntax
-	```
-	
-### Update Single Record
-- Some important points to keep in mind
-	- Http Method : POST
-	- Base URL : http://api.login2explore.com:5577
-	- End-point URL : /api/iml 
+
 - Syntax
 	```
 		{
@@ -157,7 +150,7 @@ Now you are all set to use JsonPowerDB.
 - ![UPDATE](/Images/update3.png)
 - ![UPDATE](/Images/update4.png)
 
-## Remove Single Record
+## 4) Remove Single Record
 - Syntax
 	```
 	{
