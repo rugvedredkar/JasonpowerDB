@@ -136,7 +136,7 @@ Now you are all set to use JsonPowerDB.
 }
 	```
 - code sample 
-- 	```
+ 	```
 	{
     "token": <"90937699|-31949297143690297|90942402">,
     "cmd": "UPDATE",
