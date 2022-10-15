@@ -103,3 +103,56 @@ Now you are all set to use JsonPowerDB.
 	}
 	```
 - ![GET](/Images/get1.png)
+
+
+## Update Multiple Record
+- Some important points to keep in mind
+	- Http Method : POST
+	- Base URL : http://api.login2explore.com:5577
+	- End-point URL : /api/iml 
+- Syntax
+	```
+	
+### Update Single Record
+- Some important points to keep in mind
+	- Http Method : POST
+	- Base URL : http://api.login2explore.com:5577
+	- End-point URL : /api/iml 
+- Syntax
+	```
+	{
+    "token": <"connection-token">,
+    "cmd": "UPDATE",
+    <<"dbName": "database-name",>>
+    <<"rel": "relation-name",>>
+    "jsonStr": {
+        <"record-no">: {
+            <"column-name">: <"new-value">
+        }
+        <"record-no">: {
+            <"column-name">: <"new-value">
+        }
+    }
+}
+	```
+- code sample 
+- 	```
+	{
+    "token": <"90937699|-31949297143690297|90942402">,
+    "cmd": "UPDATE",
+    <<"dbName": "Employee",>>
+    <<"rel": "index",>>
+    "jsonStr": {
+        <"3">: {
+            <"name">: <"akhil 81">
+        }
+        <"2">: {
+            <"password">: <"abcd">
+        }
+    }
+}
+	```
+- ![UPDATE](/Images/update1.png)
+- ![UPDATE](/Images/update2.png)
+- ![UPDATE](/Images/update3.png)
+- ![UPDATE](/Images/update4.png)
