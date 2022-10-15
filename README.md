@@ -66,9 +66,7 @@ Now you are all set to use JsonPowerDB.
 	- Http Method : POST
 	- Base URL : http://api.login2explore.com:5577
 	- End-point URL : /api/iml 
-- - Code Sample
-	```
-	- Code Sample
+-  Code Sample
 	```
 	{
     		"token": "90937699|-31949297143690297|90942402",
@@ -83,4 +81,7 @@ Now you are all set to use JsonPowerDB.
     		}
 	}
 	```
+![PUT](/Images/put1.png)
+![PUT](/Images/put2.png)
+![PUT](/Images/put4.png)
 
