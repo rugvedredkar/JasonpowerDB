@@ -138,19 +138,19 @@ Now you are all set to use JsonPowerDB.
 - code sample 
  	```
 	{
-    "token": <"90937699|-31949297143690297|90942402">,
-    "cmd": "UPDATE",
-    <<"dbName": "Employee",>>
-    <<"rel": "index",>>
-    "jsonStr": {
-        <"3">: {
-            <"name">: <"akhil 81">
-        }
-        <"2">: {
-            <"password">: <"abcd">
-        }
-    }
-}
+    		"token": "90937699|-31949297143690297|90942402",
+   		 "cmd": "UPDATE",
+      			"dbName": "Employee",
+     			 "rel": "index",
+   		 "jsonStr": {
+         		"3" : {
+            			 "name" :  "akhil 81"
+        			}
+         		"2" : {
+            			 "password" :  "abcd"
+        			}
+    			}
+		}
 	```
 - ![UPDATE](/Images/update1.png)
 - ![UPDATE](/Images/update2.png)
