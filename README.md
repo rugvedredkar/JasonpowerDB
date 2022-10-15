@@ -61,7 +61,8 @@ Now you are all set to use JsonPowerDB.
 		<<"templateStr": <jsonTemplateStr>,>>
 		"jsonStr": <jsonDataStr>
 	}
-  - Some important points to keep in mind
+	
+- Some important points to keep in mind
 	- Http Method : POST
 	- Base URL : http://api.login2explore.com:5577
 	- End-point URL : /api/iml 
