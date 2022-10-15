@@ -17,3 +17,7 @@ Simply go to the above mentioned website and Login
 
 After which you'll see a dashboard like this
 ![Dashboard](/Images/dashboard.png)
+
+Click on the Tools tab
+Under Token tab you'll find Generate Connection Token button. So, simply click on it.
+Now you are all set to use JsonPowerDB.
