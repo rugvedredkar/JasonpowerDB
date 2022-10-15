@@ -66,4 +66,21 @@ Now you are all set to use JsonPowerDB.
 	- Http Method : POST
 	- Base URL : http://api.login2explore.com:5577
 	- End-point URL : /api/iml 
+- - Code Sample
+	```
+	- Code Sample
+	```
+	{
+    		"token": "90937699|-31949297143690297|90942402",
+   		 "cmd": "PUT",
+   		 "dbName": "Student",
+    		"rel": "Student-Rel",
+   		 "jsonStr": {
+        		"id": "1",
+			"name": "rugved",
+       		 "email": "rugved02@gmail.com",
+       
+    		}
+	}
+	```
 
