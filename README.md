@@ -16,3 +16,4 @@ That's it, your Developer Account has been created
 Simply go to the above mentioned website and Login
 
 After which you'll see a dashboard like this
+![Dashboard](/images/dashboard.jpg)
