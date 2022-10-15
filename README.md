@@ -120,20 +120,20 @@ Now you are all set to use JsonPowerDB.
 	- End-point URL : /api/iml 
 - Syntax
 	```
-	{
-    "token": <"connection-token">,
-    "cmd": "UPDATE",
-    <<"dbName": "database-name",>>
-    <<"rel": "relation-name",>>
-    "jsonStr": {
-        <"record-no">: {
-            <"column-name">: <"new-value">
-        }
-        <"record-no">: {
-            <"column-name">: <"new-value">
-        }
-    }
-}
+		{
+    	"token": <"connection-token">,
+   	 "cmd": "UPDATE",
+    	<<"dbName": "database-name",>>
+    	<<"rel": "relation-name",>>
+    	"jsonStr": {
+       		 <"record-no">: {
+            		<"column-name">: <"new-value">
+        		}
+        	<"record-no">: {
+            		<"column-name">: <"new-value">
+        		}
+   	 	}
+	}
 	```
 - code sample 
  	```
@@ -156,3 +156,29 @@ Now you are all set to use JsonPowerDB.
 - ![UPDATE](/Images/update2.png)
 - ![UPDATE](/Images/update3.png)
 - ![UPDATE](/Images/update4.png)
+
+## Remove Single Record
+- Syntax
+	```
+	{
+		"token": <"connection-token">,
+		"cmd": "REMOVE",
+		"dbName": <"database-name">,
+		"rel": <"relation-name">,
+		"record": <record_number | [recNo1, recNo2....]>
+	}
+	```
+- Code Sample
+	```
+	{
+    		"token": "90937699|-31949297143690297|90942402",
+    		"cmd": "REMOVE",
+      		"dbName": "Employee",
+      		"rel":  "index",
+   		"record": 2,
+    		"jsonStr" : {}
+	}
+	```
+- ![REMOVE](/Images/remove1.png)
+- ![REMOVE](/Images/remove2.png)
+- ![REMOVE](/Images/remove3.png)
